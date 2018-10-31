@@ -13,7 +13,11 @@ const white = document.querySelector('.white');
 let selectedColor = "black";
 
 //events
-pegboard.addEventListener('click',onCellClick);
+//pegboard.addEventListener('click',onCellClick);
+cells.forEach(function addEventListener(cell){
+    cell.addEventListener('click',onCellClick);
+});
+
 resetBtn.addEventListener('click',reset);
 green.addEventListener('click',greenClick);
 blue.addEventListener('click',blueClick);

@@ -5,7 +5,43 @@
 
 .pegboard{
     margin-left: 1rem;
-    margin-right: 1rem;
+}
+
+.body{
+    background-image: url("9-black-texture-Free-Dark-Backgrounds.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.title{
+    color: lightgrey;
+}
+.colorbar{
+    height: 27rem;
+}
+
+.green{
+    margin-bottom: 1rem;
     margin-top: 1rem;
+}
+.blue{
+    margin-bottom: 1rem;
+}
+.red{
+    margin-bottom: 1rem;
+}
+.yellow{
+    margin-bottom: 1rem;
+}
+.tan{
+    margin-bottom: 1rem;
+}
+.brown{
+    margin-bottom: 1rem;
+}
+.black{
+    margin-bottom: 1rem;
+}
+.white{
     margin-bottom: 1rem;
 }
